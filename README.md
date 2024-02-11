@@ -27,4 +27,4 @@ If you have any feedback, suggestions, or bug reports, please feel free to open 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License https://rem.mit-license.org/
