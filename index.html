@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+    <i class="fas fa-adjust"></i>
+  </div>
+
+  <h1>BMI Calculator</h1>
+
+  <!-- Form to enter height and weight -->
+  <form>
+    <label for="height">Height (in centimeters):</label>
+    <input type="text" id="height" name="height">
+
+    <label for="weight">Weight (in kilograms):</label>
+    <input type="text" id="weight" name="weight">
+
+    <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+
+    <button type="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </form>
+
+  <!-- Section to display the result -->
+  <div id="result"></div>
+
+</body>
+</html>
